@@ -1,0 +1,5 @@
+{
+    "require": {
+        "hernandev/sc2-sdk-php": "^0.1.0"
+    }
+}
