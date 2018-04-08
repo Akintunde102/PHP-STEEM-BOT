@@ -57,13 +57,6 @@ $token = $sdk->auth()->parseReturn();
 
 
 
-
-
-$myfile = fopen("token.txt", "w") or die("Unable to open file!");
-fwrite($myfile, $token);
-fclose($myfile);
-
-
 // set the Token instance on the SDK instance.
 $sdk->setToken($token);
 
